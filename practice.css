@@ -1,0 +1,62 @@
+
+html, body{
+min-width: 290px;
+line-height: 1.5;
+font: size 1.8em;
+}
+#navbar{ 
+    background-color: beige;
+    position: fixed;
+    min-width: 230px;
+    top: 0px;
+    left: 0px;
+    width: 220px;
+    height: 100%;
+    margin: 5px;
+    z-index: 1;    
+}
+    #navbar, a {
+        text-decoration: none;
+        padding: 5px;
+        display: block;
+    }
+    #navbar ul {
+        height: 88%;
+        padding: 5px;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      #navbar li {
+        border-top: 2px solid;
+        list-style: none;
+        position: relative;
+        width: 100%;
+        font-size: 18pt;
+      }
+      @media only screen and (max-width: 400px) {
+        #main-doc {
+          margin-left: -10px;
+        }}
+        /** add a quere later**/
+
+    #main-doc {
+        position: sticky;
+        min-width: 460px;
+        max-width: 80%;
+        margin-left: 230px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 110px;}
+     
+    header{
+        margin-top: 0px;
+        margin-left: 230px;
+        text-align: center;
+        font-size: 2.1em;
+        font-weight: thin;
+        position: sticky;
+        padding-right:20px;
+        padding-left: 10px;
+        z-index: 9999;
+    }
+img{max-width: 675px;}
